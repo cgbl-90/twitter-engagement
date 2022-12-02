@@ -1,7 +1,6 @@
 import carmen from "./carmen.svg";
+import EngagementCalculator from "EngagementCalculator";
 import "./sass/App.css";
-
-// Components inside Main
 
 function App() {
   return (
@@ -10,7 +9,9 @@ function App() {
         <img src={carmen} />
         <h3>.react | sass.</h3>
       </header>
-      <main></main>
+      <main>
+        <EngagementCalculator />
+      </main>
       <footer className="flex">
         <a
           href="https://github.com/cgbl-90"
