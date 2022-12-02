@@ -1,13 +1,14 @@
 import carmen from "./carmen.svg";
-import EngagementCalculator from "EngagementCalculator";
+import React from "react";
+import EngagementCalculator from "./EngagementCalculator";
 import "./sass/App.css";
 
 function App() {
   return (
     <div>
       <header className="flex">
-        <img src={carmen} />
-        <h3>.react | sass.</h3>
+        <img src={carmen} alt="My logo" />
+        <h3>.React | Sass | Twitter API.</h3>
       </header>
       <main>
         <EngagementCalculator />

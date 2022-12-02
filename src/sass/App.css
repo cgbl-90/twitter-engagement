@@ -29,4 +29,30 @@ img {
 main {
   height: 70vh;
   box-shadow: 1px 2px 8px grey;
+  color: white;
+  background: rgb(18, 246, 216);
+  background: linear-gradient(0deg, rgb(18, 246, 216) 0%, rgb(11, 48, 228) 100%);
+  text-align: center;
+}
+main button,
+main input {
+  padding: 10px 30px;
+  font-family: inherit;
+  letter-spacing: 1px;
+  background-color: transparent;
+  color: inherit;
+  border: none;
+}
+main input {
+  border-bottom: 1px solid white;
+  width: 40ch;
+  outline: none;
+}
+main button:focus,
+main button:hover {
+  font-weight: 900;
+  text-shadow: 1px 2px 10px white;
+}
+main h3 {
+  font-weight: 300;
 }/*# sourceMappingURL=App.css.map */
