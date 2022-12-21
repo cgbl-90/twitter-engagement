@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function EngagementCalculator() {
   // Twitter
   const bearerToken =
-    "Bearer AAAAAAAAAAAAAAAAAAAAAE7rjwEAAAAA1jorw8P4y418vzTxTMSm8wCL32s%3DwzkENk7Zb2KmDvm8fJ2xh28X752VsudeuR9k41p8w7CnW1aYKl";
+    "MY_BEARER_TOKEN"; // ADD BEARER TOKEN HERE!
   const params = { max_results: 10 };
   const web_name = "https://api.twitter.com/";
   let headers = {
