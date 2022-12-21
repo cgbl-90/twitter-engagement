@@ -9,3 +9,7 @@ Inspired by: https://mention.com/en/twitter-engagement-calculator/
 [React documentation](https://reactjs.org/)
 
 [Sass](https://sass-lang.com/)
+
+### Sample
+
+https://github.com/aleksandr88p/twitterApi/blob/main/twitter.py
